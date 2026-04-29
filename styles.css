@@ -17,9 +17,9 @@
     --text-muted: #71717a;
     /* Zinc 500 */
 
-    --accent-primary: #3b82f6;
-    /* Blue 500 */
-    --accent-primary-hover: #2563eb;
+    --accent-primary: #F5821F;
+    /* Orange */
+    --accent-primary-hover: #e07018;
     --accent-success: #10b981;
     /* Emerald 500 */
     --accent-success-bg: rgba(16, 185, 129, 0.1);

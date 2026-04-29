@@ -148,7 +148,7 @@
                                 <div class="service-item">
                                     <div class="service-header">
                                         <div class="service-info">
-                                            <div class="service-icon"><i class="ri-server-line"></i></div>
+                                            <!-- <div class="service-icon"><i class="ri-server-line"></i></div> -->
                                             <div>
                                                 <div class="service-name">TPCloud Server</div>
                                                 <div class="service-package">Gói hiện tại: <span class="highlight"
@@ -159,7 +159,11 @@
                                         <span class="badge badge-active">Đang hiệu lực</span>
                                     </div>
                                     <div class="service-body">
-                                        <div class="info-grid mb-6">
+                                        <div class="info-grid mb-6" style="grid-template-columns: repeat(3, 1fr);">
+                                            <div class="info-group">
+                                                <label>Mã Sub</label>
+                                                <div class="value">SUB-TPC-1004</div>
+                                            </div>
                                             <div class="info-group">
                                                 <label>Ngày bắt đầu</label>
                                                 <div class="value">01/01/2026</div>
@@ -170,48 +174,10 @@
                                             </div>
                                         </div>
 
-                                        <h4 class="section-subtitle mb-4"
-                                            style="font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-secondary);">
-                                            Giới hạn tài nguyên (Quotas)</h4>
-                                        <div class="metrics-grid">
-                                            <div class="metric-card">
-                                                <div class="metric-header">
-                                                    <div class="metric-icon"><i class="ri-cpu-line"></i></div>
-                                                    <div class="metric-title">vCPU (Cores)</div>
-                                                </div>
-                                                <div class="metric-body">
-                                                    <div class="metric-value">64 <span class="metric-total">/ 128</span>
-                                                    </div>
-                                                    <div class="progress-bar">
-                                                        <div class="progress-fill" style="width: 50%;"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="metric-card">
-                                                <div class="metric-header">
-                                                    <div class="metric-icon"><i class="ri-database-2-line"></i></div>
-                                                    <div class="metric-title">Storage Quota</div>
-                                                </div>
-                                                <div class="metric-body">
-                                                    <div class="metric-value">3.2 TB <span class="metric-total">/ 5.0
-                                                            TB</span></div>
-                                                    <div class="progress-bar">
-                                                        <div class="progress-fill warning" style="width: 64%;"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="metric-card">
-                                                <div class="metric-header">
-                                                    <div class="metric-icon"><i class="ri-apps-line"></i></div>
-                                                    <div class="metric-title">Services</div>
-                                                </div>
-                                                <div class="metric-body">
-                                                    <div class="metric-value">Unlimited</div>
-                                                    <div class="progress-bar infinite">
-                                                        <div class="progress-fill" style="width: 100%;"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <div style="display: flex; justify-content: flex-end;">
+                                            <button class="btn btn-outline" style="padding: 6px 16px; font-size: 13px;">
+                                                <i class="ri-eye-line"></i> Xem chi tiết
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
@@ -220,7 +186,7 @@
                                 <div class="service-item">
                                     <div class="service-header">
                                         <div class="service-info">
-                                            <div class="service-icon"><i class="ri-mail-send-line"></i></div>
+                                            <!-- <div class="service-icon"><i class="ri-mail-send-line"></i></div> -->
                                             <div>
                                                 <div class="service-name">TP-Email Business</div>
                                                 <div class="service-package">Gói hiện tại: <span class="highlight"
@@ -231,7 +197,11 @@
                                         <span class="badge badge-warning">Tạm khóa</span>
                                     </div>
                                     <div class="service-body">
-                                        <div class="info-grid mb-6">
+                                        <div class="info-grid mb-6" style="grid-template-columns: repeat(3, 1fr);">
+                                            <div class="info-group">
+                                                <label>Mã Sub</label>
+                                                <div class="value">SUB-EML-2005</div>
+                                            </div>
                                             <div class="info-group">
                                                 <label>Ngày bắt đầu</label>
                                                 <div class="value">15/06/2025</div>
@@ -242,43 +212,17 @@
                                             </div>
                                         </div>
 
-                                        <h4 class="section-subtitle mb-4"
-                                            style="font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-secondary);">
-                                            Giới hạn tài nguyên (Quotas)</h4>
-                                        <div class="metrics-grid mb-6">
-                                            <div class="metric-card">
-                                                <div class="metric-header">
-                                                    <div class="metric-icon"><i class="ri-group-line"></i></div>
-                                                    <div class="metric-title">Số User tối đa</div>
-                                                </div>
-                                                <div class="metric-body">
-                                                    <div class="metric-value">500 <span class="metric-total">/
-                                                            500</span></div>
-                                                    <div class="progress-bar">
-                                                        <div class="progress-fill warning" style="width: 100%;"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="metric-card">
-                                                <div class="metric-header">
-                                                    <div class="metric-icon"><i class="ri-hard-drive-2-line"></i></div>
-                                                    <div class="metric-title">Dung lượng Mailbox</div>
-                                                </div>
-                                                <div class="metric-body">
-                                                    <div class="metric-value">1.5 TB <span class="metric-total">/ 2.0
-                                                            TB</span></div>
-                                                    <div class="progress-bar">
-                                                        <div class="progress-fill" style="width: 75%;"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <div style="display: flex; justify-content: flex-end;">
+                                            <button class="btn btn-outline" style="padding: 6px 16px; font-size: 13px;">
+                                                <i class="ri-eye-line"></i> Xem chi tiết
+                                            </button>
                                         </div>
 
-                                        <div class="suspend-info alert alert-warning" style="margin-bottom: 0;">
+                                        <!-- <div class="suspend-info alert alert-warning" style="margin-bottom: 0;">
                                             <i class="ri-error-warning-fill"></i>
                                             <div><strong>Lý do Suspend:</strong> Quá hạn thanh toán chu kỳ tiếp theo
                                                 (Overdue Payment). Vui lòng gia hạn để tiếp tục sử dụng dịch vụ.</div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -296,7 +240,13 @@
                                         <div class="timeline-item">
                                             <div class="timeline-marker success"></div>
                                             <div class="timeline-content">
-                                                <div class="timeline-time">15/04/2026 10:30 AM</div>
+                                                <div class="timeline-header"
+                                                    style="display: flex; justify-content: flex-start; align-items: center; gap: 12px; margin-bottom: 8px;">
+                                                    <div class="timeline-time" style="margin-bottom: 0;">15/04/2026
+                                                        10:30 AM</div>
+                                                    <div class="timeline-user" style="margin: 0;"><i
+                                                            class="ri-user-line"></i> System</div>
+                                                </div>
                                                 <!-- <div class="timeline-title">Nâng cấp gói dịch vụ</div> -->
                                                 <div class="timeline-desc">
                                                     <table
@@ -332,15 +282,19 @@
                                                             class="ri-information-line"></i> Đồng bộ từ phân hệ
                                                         Subscription.</div>
                                                 </div>
-                                                <div class="timeline-user"><i class="ri-user-line"></i> System
-                                                </div>
                                             </div>
                                         </div>
                                         <!-- Timeline Item 2 -->
                                         <div class="timeline-item">
                                             <div class="timeline-marker primary"></div>
                                             <div class="timeline-content">
-                                                <div class="timeline-time">01/01/2026 00:00 AM</div>
+                                                <div class="timeline-header"
+                                                    style="display: flex; justify-content: flex-start; align-items: center; gap: 12px; margin-bottom: 8px;">
+                                                    <div class="timeline-time" style="margin-bottom: 0;">01/01/2026
+                                                        00:00 AM</div>
+                                                    <div class="timeline-user" style="margin: 0;"><i
+                                                            class="ri-user-line"></i> Truc Nguyen</div>
+                                                </div>
                                                 <!-- <div class="timeline-title">Gia hạn License</div> -->
                                                 <div class="timeline-desc">
                                                     <table
@@ -373,15 +327,19 @@
                                                         </tbody>
                                                     </table>
                                                 </div>
-                                                <div class="timeline-user"><i class="ri-user-line"></i> Truc Nguyen
-                                                </div>
                                             </div>
                                         </div>
                                         <!-- Timeline Item 3 -->
                                         <div class="timeline-item">
                                             <div class="timeline-marker warning"></div>
                                             <div class="timeline-content">
-                                                <div class="timeline-time">10/12/2025 15:45 PM</div>
+                                                <div class="timeline-header"
+                                                    style="display: flex; justify-content: flex-start; align-items: center; gap: 12px; margin-bottom: 8px;">
+                                                    <div class="timeline-time" style="margin-bottom: 0;">10/12/2025
+                                                        15:45 PM</div>
+                                                    <div class="timeline-user" style="margin: 0;"><i
+                                                            class="ri-user-line"></i> Truc Nguyen</div>
+                                                </div>
                                                 <!-- <div class="timeline-title">Cập nhật thông tin liên hệ</div> -->
                                                 <div class="timeline-desc">
                                                     <table
@@ -434,15 +392,19 @@
                                                         </tbody>
                                                     </table>
                                                 </div>
-                                                <div class="timeline-user"><i class="ri-user-line"></i> Truc Nguyen
-                                                </div>
                                             </div>
                                         </div>
                                         <!-- Timeline Item 4 -->
                                         <div class="timeline-item">
                                             <div class="timeline-marker base"></div>
                                             <div class="timeline-content">
-                                                <div class="timeline-time">24/10/2025 09:00 AM</div>
+                                                <div class="timeline-header"
+                                                    style="display: flex; justify-content: flex-start; align-items: center; gap: 12px; margin-bottom: 8px;">
+                                                    <div class="timeline-time" style="margin-bottom: 0;">24/10/2025
+                                                        09:00 AM</div>
+                                                    <div class="timeline-user" style="margin: 0;"><i
+                                                            class="ri-user-line"></i> Truc Nguyen</div>
+                                                </div>
                                                 <!-- <div class="timeline-title">Khởi tạo Tenant mới</div> -->
                                                 <div class="timeline-desc">
                                                     <table
@@ -479,8 +441,6 @@
                                                     <div style="font-size: 13px; color: var(--text-muted);"><i
                                                             class="ri-building-line"></i> Khởi tạo cho Công ty Cổ phần
                                                         Công nghệ ABC.</div>
-                                                </div>
-                                                <div class="timeline-user"><i class="ri-user-line"></i> Truc Nguyen
                                                 </div>
                                             </div>
                                         </div>
